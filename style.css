@@ -7,3 +7,22 @@ body{
     border:2px solid black;
     place-items: center center;
 }
+.prnt{
+    display: grid;
+    border: 2px solid tomato;
+    border-radius: 25px;
+    grid-auto-rows: minmax(100px,15%) minmax(200px,1fr);
+    grid-template-columns: minmax(200px,600px);
+}
+#first-child{
+    background-color: tomato;
+    color:wheat;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+textarea{
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    overflow: auto;
+    word-wrap: break-word;
+}
