@@ -4,20 +4,29 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no ">
     <title>Word Counter</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+   
 </head>
 <body>
     <div class="container">
         <div class="prnt">
-            <div class="child-item" id="first-child"></div>
+            <div class="child-item" id="first-child">
+                <p>
+                    0 word &nbsp; 0 character
+                </p>
+            </div>
             <div class="child-item" id="second-child">
                 <textarea name="text" id="txtArea" cols="79" rows="20"></textarea>
             </div>
         </div>
     </div>
+
+  
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" 
+    crossorigin="anonymous"></script>
+        <script src="script.js"></script>
 </body>
 
 </html>

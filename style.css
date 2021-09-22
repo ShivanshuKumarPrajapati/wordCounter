@@ -4,25 +4,35 @@ body{
 .container{
     display: grid;
     height: 100vh;
-    border:2px solid black;
     place-items: center center;
+    min-width: 300px;
 }
 .prnt{
     display: grid;
-    border: 2px solid tomato;
-    border-radius: 25px;
+    border: 2px solid black;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
     grid-auto-rows: minmax(100px,15%) minmax(200px,1fr);
     grid-template-columns: minmax(200px,600px);
 }
 #first-child{
-    background-color: tomato;
+    background-color: black;
     color:wheat;
-    border-top-left-radius: 25px;
-    border-top-right-radius: 25px;
+    border-top-left-radius: 22px;
+    border-top-right-radius: 22px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    font-size:xxx-large;
+    padding-left: 15px;
+}
+
+#second-child{
+    display: flex;
+    flex-wrap: wrap;
 }
 textarea{
-    border-bottom-left-radius: 25px;
-    border-bottom-right-radius: 25px;
+    border:1px solid black;
     overflow: auto;
     word-wrap: break-word;
 }
