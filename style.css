@@ -35,4 +35,5 @@ textarea{
     border:1px solid black;
     overflow: auto;
     word-wrap: break-word;
+    resize: none;
 }
